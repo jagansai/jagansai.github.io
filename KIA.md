@@ -1,3 +1,10 @@
+---
+layout: default
+title: "KIA — The Backstory that Naidu Never Told You"
+---
+
+<a class="story-back" href="/">&larr; Back</a>
+
 It was somewhere in 2016, when a Korean company, KIA, was going through the    
 policy of "Make In India" that was thought through during Manmohan Singh govt,   
 but never told public about it.

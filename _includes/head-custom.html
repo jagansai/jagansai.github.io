@@ -1,0 +1,88 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  /* Telugu font across all content */
+  .main-content,
+  .main-content p,
+  .main-content li,
+  .main-content blockquote {
+    font-family: 'Noto Sans Telugu', 'Segoe UI', sans-serif;
+  }
+
+  /* Story page typography */
+  .main-content p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 1.2rem;
+    color: #24292e;
+  }
+
+  /* Back link */
+  .story-back {
+    display: inline-block;
+    margin-bottom: 1.8rem;
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .story-back:hover { text-decoration: underline; }
+
+  /* Index card grid */
+  .story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .story-card {
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .story-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+  }
+
+  .card-title {
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: #24292e;
+    margin-bottom: 0.6rem;
+  }
+
+  .card-teaser {
+    font-family: 'Noto Sans Telugu', sans-serif;
+    font-size: 0.9rem;
+    color: #586069;
+    line-height: 1.7;
+    flex-grow: 1;
+    margin-bottom: 1.1rem;
+  }
+
+  .card-link {
+    display: inline-block;
+    padding: 0.38rem 1rem;
+    background: #0366d6;
+    color: #fff !important;
+    border-radius: 5px;
+    text-decoration: none !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    align-self: flex-start;
+    font-family: 'Segoe UI', sans-serif;
+    transition: background 0.2s;
+  }
+  .card-link:hover {
+    background: #0256b9;
+  }
+</style>
