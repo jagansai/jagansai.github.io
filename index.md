@@ -35,8 +35,8 @@ layout: default
   </div>
 
   <div class="story-card">
-    <div class="card-title">సింగపూర్ స్మృతులు</div>
-    <div class="card-teaser">గళ్ళ టీషర్టులో మెట్రోలో బంగ్లాదేశ్ అని అడిగిన అబ్బాయితో ఫ్రాన్స్ కల గురించి మాటలు.</div>
+    <div class="card-title">సింగపూర్ సంగతులు</div>
+    <div class="card-teaser">సింగపూర్ జ్ఞాపకాల థ్రెడ్ — బంగ్లాదేశ్ అన్న మెట్రో అబ్బాయి నుండి నలభైలో నడుం నొప్పి మసాజ్ వరకు.</div>
     <a class="card-link" href="/SingaporeSmruthulu">చదవండి &rarr;</a>
   </div>
 
